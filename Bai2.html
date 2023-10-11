@@ -1,10 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+  <link rel="stylesheet" href="bai2.css">
 </head>
 <body>
-$END$
+<form action="Bai2.html" method="post">
+  <table method="post">
+    <tr>
+      <td align="center" bgcolor="#ff7f50" colspan="2" >Sở Thích Của Bạn</td>
+    </tr>
+    <tr>
+      <td align="left">Họ Và Tên</td>
+      <td><input type="text" name="name"></td>
+    </tr>
+    <tr>
+      <td align="left">Email</td>
+      <td><input  tyoe="text" name="email"></td>
+    </tr>
+    <tr>
+      <td align="left">Sở Thích</td>
+      <td><input type="checkbox" name="hobby"> Thể Thao
+          <input type="checkbox" name="hobby"> Âm Nhạc
+          <input type="checkbox" name="hobby"> Đọc Sách</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><input type="checkbox" name="hobby"> Lướt Web
+          <input type="checkbox" name="hobby"> Chơi Game
+          <input type="checkbox" name="hobby"> Điện Ảnh</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><input type="checkbox" name="hobby"> Du Lịch</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <input type="submit" value="Gửi Thông Tin"> <input type="reset" value="Reset">
+      </td>
+    </tr>
+  </table>
+</form>
+<br>
+<form>
+  <table bgcolor="#f0e68c" width="350px">
+    <tr>
+      <td bgcolor="aqua" colspan="2">ĐĂNG KÝ HỌC VIÊN</td>
+    </tr>
+    <tr>
+      <td>Họ Và Tên</td>
+      <td> <input type="text" name="yourname"></td>
+    </tr>
+    <tr>
+      <td>Ngày Sinh</td>
+      <td> <input type="text" name="bday"></td>
+    </tr>
+    <tr>
+      <td>Giới tính</td>
+      <td> <input type="radio" name="gender"> Nam <input type="radio" name="gender"> Nữ</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Địa chỉ</td>
+    </tr>
+    <tr>
+     <td><textarea > </textarea></td>
+    </tr>
+    <tr>
+      <td>Lớp</td>
+      <td> <select name="class">
+        <option value="HN">--Chọn lớp--</option>
+        <option value="HN">Hà Nội</option>
+        <option value="HP">Hải Phòng</option>
+        <option value="HU">Huế</option>
+        <option value="DN">Đà Nẵng</option>
+        <option value="SG">Sài Gòn</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td> <input type="text" name="email"></td>
+    </tr>
+    <tr>
+      <td>Điện Thoai</td>
+      <td> <input type="text" name="phone"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <input type="submit" value="Gửi Thông Tin"> <input type="reset" value="Reset">
+      </td>
+    </tr>
+  </table>
+</form>
+
 </body>
 </html>
